@@ -5,15 +5,17 @@ void main() {
   //lists(Array), maps(json) 
   //Explicitly Declared Variable
   String greeting = 'Hello world';//String Example 
-   /*print(greeting);
+  print(greeting);
   //Implicity Declared Variables|
   var greetingTwo = 'Abdi';
-  print(greetingTwo.runtimeType);*/
-   
-   dynamic greetingthree = 'muuse';
+  print(greetingTwo.runtimeType);
+
+  dynamic greetingthree = 'muuse';
   print(greetingthree.runtimeType);
-  
-  bool isNew = true;
+  num nu = 23.6;
+  print(nu.runtimeType);
+
+  /* bool isNew = true;
   print(isNew);
   //int and double
   double amount = 19.23;
@@ -27,5 +29,4 @@ void main() {
     'phone': '617628122'
   };
   print(personalinfo['phone']);*/
- 
 }
