@@ -9,9 +9,15 @@ void main() {
   print(isNew);
   //int and double
   double amount = 19.23;
-  print(amount);*/
+  print(amount);
   //list waxaa kaloo ladhihi karaa Array
   List listofstudents = ['abdi', 'ali', 'Aisha'];
-  print(listofstudents[1]);//Hard-coded String
+  print(listofstudents[1]); //Hard-coded String
+  //Maps
+  Map<String, dynamic> personalinfo = {
+    'name': 'abdillahi Yusuf Ali',
+    'phone': '617628122'
+  };
+  print(personalinfo['phone']);*/
   
 }
